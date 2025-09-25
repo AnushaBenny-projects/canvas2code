@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+  <div class="page2">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="top">
+         <img src="./assets/logo.png" class="icon logo" alt="Top">
+       
+       
+      </div>
+       <hr>
+
+      <div class="middle">
+        <img src="./assets/Icon 1.svg" class="icon" alt="User "id="usericon">
+         <script>
+          document.getElementById('usericon').addEventListener('click', function() {
+          window.location.href = 'index.html';
+          });
+        </script>
+       <img src="./assets/Icon 3.svg" class="icon" alt="Activity" id="activityIcon">
+
+    <script>
+      document.getElementById('activityIcon').addEventListener('click', function() {
+    window.location.href = 'index1.html';
+  });
+</script>
+
+      </div>
+
+      <div class="bottom">
+        <img src="https://img.icons8.com/ios-filled/24/settings.png" class="icon" alt="Settings">
+      </div>
+    </aside>
+     <div class="dashboard-navbar">
+    <!-- Left Title -->
+    <div class="dashboard-navbar__title">
+      <h1>Hi Adarsh</h1>
+      <p>Welcome to your dashboard</p>
+    </div>
+
+    <!-- Right Search -->
+    <div class="dashboard-navbar__actions">
+      <form class="search-form" role="search" aria-label="Site search">
+        
+        <!-- Search Icon -->
+        <button type="submit" class="search-form__btn" aria-label="Search">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+
+        <!-- Input -->
+        <input
+          class="search-form__input"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+
+        <!-- Mic Icon -->
+        <button type="button" class="search-form__mic" aria-label="Voice search">
+          <i class="fa fa-microphone" aria-hidden="true"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+  <div class="main-content">
+  <div class="course">
+    <div class="course-title-0">
+       <p>Courses</p>
+    </div>
+    <div class="coursecontent">
+      <div class="course-card">
+  <!-- Top: Icon + Title -->
+  <div class="course-header">
+    <div class="course-icon">
+      <img src="./assets/Vector.svg" alt="Python Logo">
+    </div>
+    <h3 class="course-title">Python</h3>
+  </div>
+
+  <!-- Attendance pill + chart -->
+  <div class="course-attendance">
+    <div class="pill"><p>Attendance</p>
+      <div class="chart">
+          <img src="./assets/Graph.svg" alt="graph">
+      </div>
+    
+    </div>
+  </div>
+
+  <!-- Stats row -->
+<div class="course-stats">
+  <div class="stat">
+    <img src="./assets/Group.svg" alt="Group Icon" /> 20
+  </div>
+  <div class="stat">
+    <img src="./assets/user.svg "alt="Group Icon"/> 18
+  </div>
+  <div class="stat">
+   <img src="./assets/Vector (2).svg"alt="Group Icon"/> 90%
+  </div>
+</div>
+
+
+</div>
+ <div class="course-card network">
+      <div class="course-header">
+        <div class="course-icon">
+          <img src="./assets/Vector (3).svg" alt="Network Icon">
+        </div>
+        <h3 class="course-title">Network Lab</h3>
+      </div>
+      <div class="course-attendance">
+        <p>Attendance</p>
+        <img src="./assets/Graph.svg" alt="graph">
+      </div>
+      <div class="course-stats">
+        <div class="stat"><img src="./assets/Group.svg" alt=""> 10</div>
+        <div class="stat"><img src="./assets/user.svg" alt=""> 8</div>
+        <div class="stat"><img src="./assets/Vector (2).svg" alt=""> 80%</div>
+      </div>
+    </div>
+
+    <!-- Compiler Design -->
+    <div class="course-card compiler">
+      <div class="course-header">
+        <div class="course-icon">
+          <img src="./assets/Vector (6).svg" alt="Compiler Icon">
+        </div>
+        <h3 class="course-title">Compiler Design</h3>
+      </div>
+      <div class="course-attendance">
+        <p>Attendance</p>
+        <img src="./assets/Graph.svg" alt="graph">
+      </div>
+      <div class="course-stats">
+        <div class="stat"><img src="./assets/Group.svg" alt=""> 30</div>
+        <div class="stat"><img src="./assets/user.svg" alt=""> 10</div>
+        <div class="stat"><img src="./assets/Vector (2).svg" alt=""> 33%</div>
+      </div>
+    </div>
+
+    <!-- Computer Graphics -->
+    <div class="course-card graphics">
+      <div class="course-header">
+        <div class="course-icon">
+          <img src="./assets/Vector (5).svg" alt="Graphics Icon">
+        </div>
+        <h3 class="course-title">Computer Graphics</h3>
+      </div>
+      <div class="course-attendance">
+        <p>Attendance</p>
+        <img src="./assets/Graph.svg" alt="graph">
+      </div>
+      <div class="course-stats">
+        <div class="stat"><img src="./assets/Group.svg" alt=""> 30</div>
+        <div class="stat"><img src="./assets/user.svg" alt=""> 10</div>
+        <div class="stat"><img src="./assets/Vector (2).svg" alt=""> 33%</div>
+      </div>
+    </div>
+
+    <!-- Economics -->
+    <div class="course-card economics">
+      <div class="course-header">
+        <div class="course-icon">
+          <img src="./assets/Vector (4).svg" alt="Economics Icon">
+        </div>
+        <h3 class="course-title">Economics</h3>
+      </div>
+      <div class="course-attendance">
+        <p>Attendance</p>
+        <img src="./assets/Graph.svg" alt="graph">
+      </div>
+      <div class="course-stats">
+        <div class="stat"><img src="./assets/Group.svg" alt=""> 40</div>
+        <div class="stat"><img src="./assets/user.svg" alt=""> 20</div>
+        <div class="stat"><img src="./assets/Vector (2).svg" alt=""> 50%</</div>
+      </div>
+    </div>
+
+
+
+
+</div>
+
+<!-- Font Awesome for icons -->
+<div class="profile-card">
+    <img src="./assets/profile.svg" alt="Profile">
+    <h2>Adarsh Mohan K S</h2>
+    <p>Government Engineering College Thrissur</p>
+    <div class="stats">
+      <div class="stat">
+        <span>Activity points</span>
+        <strong>153</strong>
+      </div>
+      <div class="stat">
+        <span>SGPA</span>
+        <strong>7.9</strong>
+      </div>
+      <div class="stat">
+        <span>CGPA</span>
+        <strong>7.6</strong>
+      </div>
+    </div>
+  </div>
+    </div>
+      <div class="view-all ">
+          View all
+    <div class="viewallsvg">
+      <img src="./assets/keyboard_backspace.svg" alt="keyboard">
+    </div>
+  </div> 
+ 
+  </div>
+
+  </div>
+  <div class="main-section">
+
+<div class="cgpa-graph">
+  <img src="./assets/cgpa.svg" alt="cgpa">
+</div>
+<div class="card">
+    <h2>Todays classes</h2>
+
+    <div class="class-item">
+      <span>1. Computer Graphics</span>
+      <div class="time">9 AM - 10 AM</div>
+    </div>
+
+    <div class="class-item">
+      <span>2. Economics</span>
+      <div class="time">10 AM - 11 AM</div>
+    </div>
+
+    <div class="class-item">
+      <span>3. Economics</span>
+      <div class="time">11 AM - 12 PM</div>
+    </div>
+
+    <div class="class-item">
+      <span>4. Lunch break</span>
+      <div class="time">12 PM - 1 PM</div>
+    </div>
+
+    <div class="class-item">
+      <span>5. Algorithm Analysis</span>
+      <div class="time">1 PM - 2 PM</div>
+    </div>
+
+    <div class="class-item">
+      <span>6. Python</span>
+      <div class="time">2 PM - 3 PM</div>
+    </div>
+
+    <div class="class-item">
+      <span>7. Honors</span>
+      <div class="time">3 PM - 4 PM</div>
+    </div>
+  </div>
+  <div class="calender">
+    <img src="./assets/cal.svg" alt="calender">
+  </div>
+    
+</div>
+<div class="footer">
+  <div class="card">
+  <h2>Semester attendance</h2>
+
+  <!-- Gauge SVG -->
+  <div class="gauge-box">
+    <img src="./assets/Chart + Content.svg" alt="Attendance chart" class="gauge-svg">
+  </div>
+
+  <!-- Text details -->
+  <p class="card-h3">Your attendance Score is <strong>average</strong></p>
+  <p class="date">Last Check on 21 Feb</p>
+
+  <!-- Button -->
+  <button class="info-btn">What these stats mean?</button>
+</div>
+ <div class="card">
+    <h3>Notifications</h3>
+    <ul class="list">
+      <li>
+        <span class="icon green"><img src="./assets/Vector (7).svg" alt=""></span>
+        <div>
+          <p class="title">Exam registration</p>
+          <p class="date">22 Feb 2024</p>
+        </div>
+      </li>
+      <li>
+        <span class="icon purple"><img src="./assets/Group (1).svg" alt=""></span>
+        <div>
+          <p class="title">Verify your email</p>
+          <p class="date">22 Feb 2024</p>
+        </div>
+      </li>
+      <li>
+        <span class="icon red"><img src="./assets/email.svg" alt=""></span>
+        <div>
+          <p class="title">Email verification failed</p>
+          <p class="date">22 Feb 2024</p>
+        </div>
+      </li>
+    </ul>
+    <a href="#" class="view-all">View all →</a>
+  </div>
+
+  <!-- Internal exam schedule -->
+  <div class="card">
+    <h3>Internal exam schedule</h3>
+    <ul class="list">
+      <li>
+        <span class="icon blue"><img src="./assets/Vector.svg" alt=""></span>
+        <div>
+          <p class="title">Python</p>
+          <p class="date">22 Feb 2024</p>
+        </div>
+      </li>
+      <li>
+        <span class="icon blue"><img src="./assets/Vector (6).svg" alt=""></span>
+        <div>
+          <p class="title">Compiler design</p>
+          <p class="date">24 Feb 2024</p>
+        </div>
+      </li>
+      <li>
+        <span class="icon pink"><img src="./assets/Vector (5).svg" alt=""></span>
+        <div>
+          <p class="title">Computer graphics</p>
+          <p class="date">26 Feb 2024</p>
+        </div>
+      </li>
+    </ul>
+    <a href="#" class="view-all">View all →</a>
+  </div>
+
+  <!-- Pending work -->
+  <div class="card">
+    <h3>Pending work</h3>
+    <ul class="list">
+      <li>
+        <span class="icon violet"><img src="./assets/Vector (9).svg" alt=""></span>
+        <div>
+          <p class="title">AAD Assignment</p>
+          <p class="date">22 Feb 2024</p>
+        </div>
+      </li>
+      <li>
+        <span class="icon green"><img src="./assets/shopping_basket.svg" alt=""></span>
+        <div>
+          <p class="title">Network Lab Program</p>
+          <p class="date">22 Feb 2024</p>
+        </div>
+      </li>
+      <li>
+        <span class="icon orange"><img src="./assets/subscriptions.svg" alt=""></span>
+        <div>
+          <p class="title">CG Assignments</p>
+          <p class="date">22 Feb 2024</p>
+        </div>
+      </li>
+    </ul>
+    <a href="#" class="view-all">View all →</a>
+  </div>
+  </div>
+
+    
+  </div>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+</html>
