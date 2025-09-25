@@ -711,6 +711,7 @@ img:hover {
 
 .profile-card h2 {
   font-size: 20px;
+   overflow-wrap: break-word;
   font-weight: bold;
   color: #1f2859;
   margin-bottom: 6px;
@@ -1632,4 +1633,5 @@ event-todo{
   display: flex;
   gap: 20px;
 }
+
 
