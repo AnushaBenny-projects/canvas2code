@@ -1511,7 +1511,6 @@ event-todo{
   display:block;
 }
 .links-card {
-  margin-left: 70px;
   border: 3px solid var(--blue);
   border-radius: 20px;
   padding: var(--pad);
@@ -1633,3 +1632,4 @@ event-todo{
   display: flex;
   gap: 20px;
 }
+
