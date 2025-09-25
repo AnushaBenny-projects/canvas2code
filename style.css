@@ -1633,6 +1633,11 @@ event-todo{
   display: flex;
   gap: 20px;
 }
+@media (max-width: 2650px) {
+ .view-all{
+   display:flex;
+ } 
+}
 
 
 
