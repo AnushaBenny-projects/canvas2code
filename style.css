@@ -1,4 +1,6 @@
 
+
+
 /* Page setup */
 body {
   font-family: Arial, sans-serif;
@@ -196,8 +198,8 @@ body {
 
 /* Icons */
 .sidebar img {
-  width: 38px;
-  height: 38px;
+  width: 28px;
+  height: 28px;
   cursor: pointer;
   transition: opacity 0.2s;
 }
@@ -1509,7 +1511,6 @@ event-todo{
   display:block;
 }
 .links-card {
- 
   border: 3px solid var(--blue);
   border-radius: 20px;
   padding: var(--pad);
@@ -1631,3 +1632,4 @@ event-todo{
   display: flex;
   gap: 20px;
 }
+
